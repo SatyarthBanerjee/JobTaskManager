@@ -222,6 +222,8 @@ const updateTask = async (req, res) => {
 };
 const deleteTask = async (req, res) => {
     const { task_id } = req.body;
+    // console.log(task_id);
+    
 
     try {
         // Find the user who has the task in any of the task arrays
